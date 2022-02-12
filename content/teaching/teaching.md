@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = "2022-07-01"
   description = """
-  Teaching asistant of the following courses:
+  TA of the following courses:
   * 2021-2022: [MAA201-Euclidean and Hermitian spaces](https://moodle.polytechnique.fr/enrol/index.php?id=12805)
   * 2020-2021: [MAA206-Quadratic Forms and Applications](https://moodle.polytechnique.fr/enrol/index.php?id=10727)
   * 2019-2020: [MAA105-Integral and Differential Calculus](https://moodle.polytechnique.fr/enrol/index.php?id=8338)
