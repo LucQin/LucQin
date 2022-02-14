@@ -14,7 +14,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "#contact"
+    link: "contact/"
   - icon: cv
     icon_pack: ai
     link: uploads/cv.pdf
