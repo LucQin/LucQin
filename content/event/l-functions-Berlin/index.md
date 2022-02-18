@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: $\mathrm{L}$-functions of Kloosterman sheaves
+title: $\mathrm{L}$-functions of Kloosterman sheaves.
 event: Algebraic geometry seminar in HU Berlin
 event_url: https://www.math.hu-berlin.de/~www-ag/Forschungsseminar.html
 location: Berlin
