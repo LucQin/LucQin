@@ -1,5 +1,5 @@
 ---
-title: $\mathrm{L}$-functions of Kloosterman sheaves.
+title: $\mathrm{L}$-functions of Kloosterman sheaves
 abstract: |-
 
 location: Beijing
