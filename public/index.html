@@ -35,10 +35,11 @@
 <!-- Navbar -->
   <div class="w3-top">
     <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><!--<i class="fa fa-bars"></i>--></a>
       <img src="Files/icon.png" width="50" height="50" class="w3-bar-item w3-button w3-theme-l1"> </img>
       <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white" >About</a>
       <a href="#research" class="w3-bar-item w3-button w3-hide-small w3-hover-white" >Research</a>
+      <a href="#talk" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Talk</a>
       <a href="#teaching" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teaching</a>
       <a href="Files/cv.pdf" class="w3-bar-item w3-button w3-hide-small w3-hover-white" >CV</a>
     </div>
@@ -61,58 +62,75 @@
 
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<!--<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>-->
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <div class="w3-row w3-padding-64">
+<div class="w3-content w3-container w3-padding-64" >
+  <div class="w3-row w3-padding-64" id="about">
     <div class="w3-twothird w3-container">
       <h2> Yichen Qin </h2>
-      <p> Currently, I am a third year Phd student in the laboratory <a href = "https://portail.polytechnique.edu/cmls/fr" style="color:DodgerBlue;"> CMLS </a> (Centre de Mathématiques Laurent Schwartz) under the supervision of <a href="http://javier.fresan.perso.math.cnrs.fr/" style="color:DodgerBlue;"> Javier Fresán. </a> </p>
-      <p> I am a co-organizer of the seminar <a href = "https://indico.math.cnrs.fr/category/287/" style="color:DodgerBlue;"> RéGA </a> (Réseau des étudiant en géométrie algébrique) together with Elyes Boughattas, Vincent Bouis, and Arnaud Eteve. </p>
-	    <p> Here is my <a href="Files/cv.pdf" style="color:DodgerBlue;">CV.</a> </p>
+      <p> Currently, I am a third year Phd student in the laboratory <a href = "https://portail.polytechnique.edu/cmls/fr" style="color:DodgerBlue;">CMLS</a> under the supervision of <a href="http://javier.fresan.perso.math.cnrs.fr/" style="color:DodgerBlue;"> Javier Fresán</a>.</p>
+      <p> My research interests are in arithmetic geometry, mainly exponential sums and periods.  </p>
+	    <p> Here is my <a href="Files/cv.pdf" style="color:DodgerBlue;">CV</a>. </p>
     </div>
 
     <div class="w3-third w3-container">
-		<img src="Files/avatar.jpg" width="100" height="140"> 
+		<img src="Files/avatar2.jpeg" width="160" height="200"> 
     </div>
   
   	<div class="w3-third w3-container">
 		  <i><b>Address</b></i> :<br>
-		  <a href="https://www.uni-frankfurt.de/42358766/Institut_f%C3%BCr_Mathematik" style="color:DodgerBlue;">Centre de Mathématiques Laurent Schwartz</a><br>
+		  <a href="https://www.uni-frankfurt.de/42358766/Institut_f%C3%BCr_Mathematik" style="color:DodgerBlue;">CMLS</a>,
 		  École Polytechnique<br>
 	  	Route de Saclay<br>
-		  91120 Palaiseau<br>
-		  France<br>
+		  91128 Palaiseau Cedex<br>
 	    <i><b>E-mail</i></b>: yichen.qin@polytechnique.edu<br>
       <i><b>Office&nbsp;</i></b>: 6:10-19<br>
     </div>
 	</div>
-</div>
+
 
 
   <!-- Research -->
-  <div class="w3-content w3-container w3-padding-64" id="research">
-    <div class="w3-row w3-padding-64">
-      <div class="w3-twothird w3-container">
-        <h3> Research </h3>
-      </div>
+  <div class="w3-row w3-padding-64" id="research">
+    <div class="w3-twothird w3-container">
+      <h3> Research </h3>
+      <ul>
+        <li>
+            
+        </li>
+      </ul>
+    </div>
   </div>
 
+    <!-- Talk -->
+    <div class="w3-row w3-padding-64" id="talk">
+      <div class="w3-twothird w3-container">
+        <h3> Talk </h3>
+        <ul>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  
   <!-- Teaching -->
   <div class="w3-content w3-container w3-padding-64"  id="teaching">
-    <h3> Teaching </h3>
-    <ul>
-      <li>2021 Autumn: TA of <a href="https://moodle.polytechnique.fr/course/view.php?id=12805" style="color:DodgerBlue;">MAA201</a> - Euclidean and Hermitian spaces in École Polytechnique. Instructor: Prof. <a href="http://www.cmls.polytechnique.fr/perso/renard/" style="color:DodgerBlue;">David Renard</a>.</li>
+    <div class="w3-row w3-padding-64">
+      <h3> Teaching </h3>
+      <ul>
+        <li>2021 Autumn: TA of <a href="https://moodle.polytechnique.fr/course/view.php?id=12805" style="color:DodgerBlue;">MAA201</a> - Euclidean and Hermitian spaces in École Polytechnique. Instructor: Prof. <a href="http://www.cmls.polytechnique.fr/perso/renard/" style="color:DodgerBlue;">David Renard</a>.</li>
 
-      <li>2021 Spring: TA of <a href="  https://moodle.polytechnique.fr/enrol/index.php?id=10727" style="color:DodgerBlue;">MAA206</a> - Quadratic Forms and Applications in École Polytechnique. Instructor: Prof. <a href="https://perso.pages.math.cnrs.fr/users/thomas.gauthier/index.html" style="color:DodgerBlue;">Thomas Gauthier</a>. </li>
+        <li>2021 Spring: TA of <a href="  https://moodle.polytechnique.fr/enrol/index.php?id=10727" style="color:DodgerBlue;">MAA206</a> - Quadratic Forms and Applications in École Polytechnique. Instructor: Prof. <a href="https://perso.pages.math.cnrs.fr/users/thomas.gauthier/index.html" style="color:DodgerBlue;">Thomas Gauthier</a>. </li>
 
-      <li>2019 Spring: TA of <a href="https://moodle.polytechnique.fr/enrol/index.php?id=8338" style="color:DodgerBlue;">MAA105</a> - Integral and Differential Calculus in École Polytechnique. Instructor: Prof. <a href="https://www.normalesup.org/~bettinel/index.html.fr" style="color:DodgerBlue;"> 	Jérémie Bettinelli</a>. </li>
+        <li>2019 Spring: TA of <a href="https://moodle.polytechnique.fr/enrol/index.php?id=8338" style="color:DodgerBlue;">MAA105</a> - Integral and Differential Calculus in École Polytechnique. Instructor: Prof. <a href="https://www.normalesup.org/~bettinel/index.html.fr" style="color:DodgerBlue;"> 	Jérémie Bettinelli</a>. </li>
 
-      <li>2019 Spring: TA of MAA206 - Quadratic Forms and Applications in École Polytechnique. Instructor: Prof. <a href="https://perso.pages.math.cnrs.fr/users/thomas.gauthier/index.html" style="color:DodgerBlue;">Thomas Gauthier</a>. </li>
-    </ul>
+        <li>2019 Spring: TA of MAA206 - Quadratic Forms and Applications in École Polytechnique. Instructor: Prof. <a href="https://perso.pages.math.cnrs.fr/users/thomas.gauthier/index.html" style="color:DodgerBlue;">Thomas Gauthier</a>. </li>
+      </ul>
+    </div>
   </div>
-
+</div>
   <!-- Pagination -->
   <!-- <div class="w3-center w3-padding-32">
     <div class="w3-bar">
@@ -137,8 +155,9 @@
 
   
 <!-- END MAIN -->
-</div>
 
+<!--
+  </div>
 <script>
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar"); 
@@ -162,7 +181,7 @@ function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
-</script>
+</script>-->
 
 </body>
 </html>
